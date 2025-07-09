@@ -14,8 +14,8 @@ This repository contains a Proof of Concept (POC) for generating personalized, s
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone git@github.com:SamipSthaLF/LLM-POCs.git
+   cd LLM-POCs
    ```
 
 2. Install Python dependencies:
@@ -74,12 +74,6 @@ uvicorn server:app --reload
 
 ![POC Diagram](stylemail/python_module.png)
 
-## Testing
-
-Run tests using:
-```bash
-pytest stylemail/tests
-```
 
 ## Conclusion
 
